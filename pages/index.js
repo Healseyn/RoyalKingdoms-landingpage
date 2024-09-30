@@ -191,15 +191,15 @@ export default function Home() {
                 <p className="text-neutral mt-2">Blockchain Integration and Alpha Testing.</p>
               </div>
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">September 19, 2024</h3>
+                <h3 className="text-xl font-bold text-neutral">October 2, 2024</h3>
                 <p className="text-neutral mt-2">Beta Launch.</p>
               </div>
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">September 20, 2024</h3>
+                <h3 className="text-xl font-bold text-neutral">October 3, 2024</h3>
                 <p className="text-neutral mt-2">Fair Launch on Pump.fun.</p>
               </div>
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">October 20, 2024</h3>
+                <h3 className="text-xl font-bold text-neutral">November 1, 2024</h3>
                 <p className="text-neutral mt-2">Official Game Launch and Community Expansion.</p>
               </div>
             </div>
@@ -311,7 +311,7 @@ export default function Home() {
                 </h3>
                 {openQuestion === 2 && (
                   <p className="text-neutral mt-2 transition-all duration-500 ease-in-out">
-                    To participate in the fair launch, you can join the event on September 20, 2024, via the Pump.fun platform. Ensure you have a Solana wallet ready to interact with our token launch.
+                    To participate in the fair launch, you can join the event on October 3, 2024, via the Pump.fun platform. Ensure you have a Solana wallet ready to interact with our token launch.
                   </p>
                 )}
               </div>
