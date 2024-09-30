@@ -394,10 +394,22 @@ export default function Home() {
 
           {/* Community Image */}
           <div className="mt-8 flex justify-center">
-            <Image src="/images/discord-banner.webp" alt="Community" width={720} height={360} className="rounded-md border-2 border-secondary shadow-xl transition duration-500 hover:scale-105" />
+            <Image
+              src="/images/discord-banner.webp"
+              alt="Community"
+              width={720}
+              height={360}
+              className="rounded-md border-2 border-secondary shadow-xl transition duration-500 hover:scale-105"
+            />
           </div>
-          <button className="mt-6 px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-accent transition duration-300 transform hover:-translate-y-1 hover:scale-110">Join Discord</button>
+
+          <a href="https://discord.gg/KbS8PUzEPb" target="_blank" rel="noopener noreferrer">
+            <button className="mt-6 px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-accent transition duration-300 transform hover:-translate-y-1 hover:scale-110">
+              Join Discord
+            </button>
+          </a>
         </section>
+
 
         {/* Footer */}
         <footer className="bg-secondary py-6">
