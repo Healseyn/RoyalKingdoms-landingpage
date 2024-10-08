@@ -40,7 +40,7 @@ export default function Home() {
             <nav className="hidden md:flex space-x-4">
               <a href="#features" className="text-neutral hover:text-primary transition duration-300">Features</a>
               <a href="#roadmap" className="text-neutral hover:text-primary transition duration-300">Roadmap</a>
-              <a href="/docs" className="text-neutral hover:text-primary transition duration-300">Docs</a>
+              <a href="https://docs.royalkingdoms.xyz/" className="text-neutral hover:text-primary transition duration-300">Docs</a>
             </nav>
 
             <div className="absolute left-1/2 transform -translate-x-1/2 -top-12 md:-top-5 z-50">
@@ -120,7 +120,7 @@ export default function Home() {
               <nav className="flex flex-col space-y-4">
                 <a href="#features" className="text-neutral hover:text-primary transition duration-300">Features</a>
                 <a href="#roadmap" className="text-neutral hover:text-primary transition duration-300">Roadmap</a>
-                <a href="/docs" className="text-neutral hover:text-primary transition duration-300">Docs</a>
+                <a href="https://docs.royalkingdoms.xyz/" className="text-neutral hover:text-primary transition duration-300">Docs</a>
                 <a href="#token-sale" className="text-neutral hover:text-primary transition duration-300">Token Sale</a>
                 <a href="#community" className="text-neutral hover:text-primary transition duration-300">Community</a>
                 <a href="https://x.com/RkingdomsSol" target="_blank" rel="noopener noreferrer" className="text-neutral hover:text-primary transition duration-300">Twitter</a>
@@ -191,15 +191,15 @@ export default function Home() {
                 <p className="text-neutral mt-2">Blockchain Integration and Alpha Testing.</p>
               </div>
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">October 2, 2024</h3>
+                <h3 className="text-xl font-bold text-neutral">October 11, 2024</h3>
                 <p className="text-neutral mt-2">Beta Launch.</p>
               </div>
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">October 3, 2024</h3>
+                <h3 className="text-xl font-bold text-neutral">October 12, 2024</h3>
                 <p className="text-neutral mt-2">Fair Launch on Pump.fun.</p>
               </div>
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">November 1, 2024</h3>
+                <h3 className="text-xl font-bold text-neutral">November 15, 2024</h3>
                 <p className="text-neutral mt-2">Official Game Launch and Community Expansion.</p>
               </div>
             </div>
@@ -311,7 +311,7 @@ export default function Home() {
                 </h3>
                 {openQuestion === 2 && (
                   <p className="text-neutral mt-2 transition-all duration-500 ease-in-out">
-                    To participate in the fair launch, you can join the event on October 3, 2024, via the Pump.fun platform. Ensure you have a Solana wallet ready to interact with our token launch.
+                    To participate in the fair launch, you can join the event on October 12, 2024, via the Pump.fun platform. Ensure you have a Solana wallet ready to interact with our token launch.
                   </p>
                 )}
               </div>
@@ -328,7 +328,7 @@ export default function Home() {
                 </h3>
                 {openQuestion === 3 && (
                   <p className="text-neutral mt-2 transition-all duration-500 ease-in-out">
-                    The official release of Royal Kingdoms is scheduled for October 20, 2024, following the fair launch and beta testing phases.
+                    The official release of Royal Kingdoms is scheduled for November 15, 2024, following the fair launch and beta testing phases.
                   </p>
                 )}
               </div>
