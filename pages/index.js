@@ -145,13 +145,16 @@ export default function Home() {
             />
           </div>
           <div className="mt-6 flex justify-center gap-4">
-            <button className="px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-accent transition duration-300">
-              Play Now
-            </button>
+            <a href="https://beta-play.royalkingdoms.xyz/" target="_blank" rel="noopener noreferrer">
+              <button className="px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-accent transition duration-300">
+                Play Now
+              </button>
+            </a>
             <button className="px-8 py-3 bg-accent text-white font-semibold rounded-lg hover:bg-primary transition duration-300">
               Buy Now
             </button>
           </div>
+
         </section>
 
 
