@@ -150,9 +150,11 @@ export default function Home() {
                 Play Now
               </button>
             </a>
+            <a href="https://pump.fun/BAmqiw5XcKP4ftEwxJC4bQicmXHjJgr9USnDryxBpump" target="_blank" rel="noopener noreferrer">
             <button className="px-8 py-3 bg-accent text-white font-semibold rounded-lg hover:bg-primary transition duration-300">
               Buy Now
             </button>
+            </a>
           </div>
 
         </section>
