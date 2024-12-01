@@ -150,7 +150,7 @@ export default function Home() {
                 Play Now
               </button>
             </a>
-            <a href="https://pump.fun/BAmqiw5XcKP4ftEwxJC4bQicmXHjJgr9USnDryxBpump" target="_blank" rel="noopener noreferrer">
+            <a href="https://pump.fun" target="_blank" rel="noopener noreferrer">
             <button className="px-8 py-3 bg-accent text-white font-semibold rounded-lg hover:bg-primary transition duration-300">
               Buy Now
             </button>
@@ -188,23 +188,23 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-primary">Roadmap</h2>
             <div className="mt-8 flex flex-col md:flex-row justify-center">
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">Q1 2024</h3>
+                <h3 className="text-xl font-bold text-neutral">To be announced</h3>
                 <p className="text-neutral mt-2">Game Conceptualization and Initial Development.</p>
               </div>
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">Q2 2024</h3>
+                <h3 className="text-xl font-bold text-neutral">To be announced</h3>
                 <p className="text-neutral mt-2">Blockchain Integration and Alpha Testing.</p>
               </div>
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">October 11, 2024</h3>
+                <h3 className="text-xl font-bold text-neutral">To be announced</h3>
                 <p className="text-neutral mt-2">Beta Launch.</p>
               </div>
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">October 12, 2024</h3>
+                <h3 className="text-xl font-bold text-neutral">To be announced</h3>
                 <p className="text-neutral mt-2">Fair Launch on Pump.fun.</p>
               </div>
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">November 15, 2024</h3>
+                <h3 className="text-xl font-bold text-neutral">To be announced</h3>
                 <p className="text-neutral mt-2">Official Game Launch and Community Expansion.</p>
               </div>
             </div>
@@ -333,7 +333,7 @@ export default function Home() {
                 </h3>
                 {openQuestion === 3 && (
                   <p className="text-neutral mt-2 transition-all duration-500 ease-in-out">
-                    The official release of Royal Kingdoms is scheduled for November 15, 2024, following the fair launch and beta testing phases.
+                    To be announced
                   </p>
                 )}
               </div>
