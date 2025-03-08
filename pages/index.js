@@ -150,10 +150,10 @@ export default function Home() {
                 Play Now
               </button>
             </a>
-            <a href="https://pump.fun" target="_blank" rel="noopener noreferrer">
-            <button className="px-8 py-3 bg-accent text-white font-semibold rounded-lg hover:bg-primary transition duration-300">
-              Buy Now
-            </button>
+            <a href="https://gofundmeme.io/" target="_blank" rel="noopener noreferrer">
+              <button className="px-8 py-3 bg-accent text-white font-semibold rounded-lg hover:bg-primary transition duration-300">
+                Buy Now
+              </button>
             </a>
           </div>
 
@@ -201,7 +201,7 @@ export default function Home() {
               </div>
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
                 <h3 className="text-xl font-bold text-neutral">To be announced</h3>
-                <p className="text-neutral mt-2">Fair Launch on Pump.fun.</p>
+                <p className="text-neutral mt-2">Fair Launch on gofundmeme.io</p>
               </div>
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
                 <h3 className="text-xl font-bold text-neutral">To be announced</h3>
@@ -275,7 +275,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-primary">Token Launch</h2>
             <p className="text-secondary mt-4">Participate in the token fair launch on solana network and gain exclusive advantages.</p>
             <div className="mt-8 flex justify-center">
-              <Image src="/images/pump-fun.png" alt="Token Sale" width={720} height={360} className="rounded-md border-2 border-secondary shadow-xl transition duration-500 hover:scale-105" />
+              <Image src="/images/gofundmeme.png" alt="Token Sale" width={720} height={360} className="rounded-md border-2 border-secondary shadow-xl transition duration-500 hover:scale-105" />
             </div>
             <button className="mt-6 px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-accent transition duration-300 transform hover:-translate-y-1 hover:scale-110">
               Join the Fair Launch
@@ -316,7 +316,7 @@ export default function Home() {
                 </h3>
                 {openQuestion === 2 && (
                   <p className="text-neutral mt-2 transition-all duration-500 ease-in-out">
-                    To participate in the fair launch, you can join the event on October 12, 2024, via the Pump.fun platform. Ensure you have a Solana wallet ready to interact with our token launch.
+                    To participate in the fair launch, you can join the event via the gofundmeme platform. Ensure you have a Solana wallet ready to interact with our token launch.
                   </p>
                 )}
               </div>
@@ -373,21 +373,6 @@ export default function Home() {
               </div>
 
 
-              <div
-                className={`w-full md:w-3/4 p-4 text-left bg-secondary rounded-lg shadow-md cursor-pointer transition-all duration-500 border-2 border-primary ${openQuestion === 6 ? 'mb-4' : 'mb-2'
-                  }`}
-                onClick={() => toggleQuestion(6)}
-              >
-                <h3 className="text-xl font-bold text-neutral flex justify-between">
-                  6. What happens if the token does not reach Raidium in 5 days?
-                  <span>{openQuestion === 6 ? '-' : '+'}</span>
-                </h3>
-                {openQuestion === 6 && (
-                  <p className="text-neutral mt-2 transition-all duration-500 ease-in-out">
-                    If the token does not reach Raidium in 5 days, it will be relaunched. This is to ensure a fair and equitable distribution among participants and to provide everyone with a second chance to get involved.
-                  </p>
-                )}
-              </div>
             </div>
           </div>
         </section>
