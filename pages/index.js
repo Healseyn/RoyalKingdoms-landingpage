@@ -188,24 +188,24 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-primary">Roadmap</h2>
             <div className="mt-8 flex flex-col md:flex-row justify-center">
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">To be announced</h3>
-                <p className="text-neutral mt-2">Game Conceptualization and Initial Development.</p>
+                <h3 className="text-xl font-bold text-neutral">March 23, 2025</h3>
+                <p className="text-neutral mt-2">Official Beta Launch</p>
               </div>
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">To be announced</h3>
-                <p className="text-neutral mt-2">Blockchain Integration and Alpha Testing.</p>
+                <h3 className="text-xl font-bold text-neutral">March 23, 2025</h3>
+                <p className="text-neutral mt-2">Token Fair Launch on gofundmeme.io</p>
               </div>
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">To be announced</h3>
-                <p className="text-neutral mt-2">Beta Launch.</p>
+                <h3 className="text-xl font-bold text-neutral">April 2025</h3>
+                <p className="text-neutral mt-2">Gameplay Enhancements and Community Feedback Integration</p>
               </div>
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">To be announced</h3>
-                <p className="text-neutral mt-2">Fair Launch on gofundmeme.io</p>
+                <h3 className="text-xl font-bold text-neutral">April 2025</h3>
+                <p className="text-neutral mt-2">Token game integration</p>
               </div>
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">To be announced</h3>
-                <p className="text-neutral mt-2">Official Game Launch and Community Expansion.</p>
+                <h3 className="text-xl font-bold text-neutral">Q2 2025</h3>
+                <p className="text-neutral mt-2">Season 1 start</p>
               </div>
             </div>
           </div>
@@ -333,8 +333,9 @@ export default function Home() {
                 </h3>
                 {openQuestion === 3 && (
                   <p className="text-neutral mt-2 transition-all duration-500 ease-in-out">
-                    To be announced
+                    The beta is officially live as of March 23, 2025. Join now and start building your kingdom!
                   </p>
+
                 )}
               </div>
 
@@ -404,7 +405,7 @@ export default function Home() {
         {/* Footer */}
         <footer className="bg-secondary py-6">
           <div className="container mx-auto px-6 text-center text-neutral">
-            &copy; 2024 Royal Kingdoms. All rights reserved.
+            &copy; {new Date().getFullYear()} Royal Kingdoms. All rights reserved.
           </div>
         </footer>
       </main>
