@@ -121,7 +121,7 @@ export default function Home() {
                 <a href="#features" className="text-neutral hover:text-primary transition duration-300">Features</a>
                 <a href="#roadmap" className="text-neutral hover:text-primary transition duration-300">Roadmap</a>
                 <a href="https://docs.royalkingdoms.xyz/" className="text-neutral hover:text-primary transition duration-300">Docs</a>
-                <a href="#token-sale" className="text-neutral hover:text-primary transition duration-300">Token Sale</a>
+                <a href="https://gofundmeme.io/campaigns/VpvVnHVCpT1uWsGCkJRdH2jVtfASjrwMpYns1eSGGFM" className="text-neutral hover:text-primary transition duration-300">Token Sale</a>
                 <a href="#community" className="text-neutral hover:text-primary transition duration-300">Community</a>
                 <a href="https://x.com/RkingdomsSol" target="_blank" rel="noopener noreferrer" className="text-neutral hover:text-primary transition duration-300">Twitter</a>
                 <a href="https://discord.gg/ScgrQRuub3" target="_blank" rel="noopener noreferrer" className="text-neutral hover:text-primary transition duration-300">Discord</a>
@@ -150,7 +150,7 @@ export default function Home() {
                 Play Now
               </button>
             </a>
-            <a href="https://gofundmeme.io/" target="_blank" rel="noopener noreferrer">
+            <a href="https://gofundmeme.io/campaigns/VpvVnHVCpT1uWsGCkJRdH2jVtfASjrwMpYns1eSGGFM" target="_blank" rel="noopener noreferrer">
               <button className="px-8 py-3 bg-accent text-white font-semibold rounded-lg hover:bg-primary transition duration-300">
                 Buy Now
               </button>
@@ -193,7 +193,7 @@ export default function Home() {
               </div>
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
                 <h3 className="text-xl font-bold text-neutral">March 23, 2025</h3>
-                <p className="text-neutral mt-2">Token Fair Launch on gofundmeme.io</p>
+                <p className="text-neutral mt-2">Token Launch on gofundmeme.io</p>
               </div>
               <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
                 <h3 className="text-xl font-bold text-neutral">April 2025</h3>
@@ -277,9 +277,11 @@ export default function Home() {
             <div className="mt-8 flex justify-center">
               <Image src="/images/gofundmeme.png" alt="Token Sale" width={720} height={360} className="rounded-md border-2 border-secondary shadow-xl transition duration-500 hover:scale-105" />
             </div>
+            <a href="https://gofundmeme.io/campaigns/VpvVnHVCpT1uWsGCkJRdH2jVtfASjrwMpYns1eSGGFM" target="_blank" rel="noopener noreferrer">
             <button className="mt-6 px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-accent transition duration-300 transform hover:-translate-y-1 hover:scale-110">
-              Join the Fair Launch
+              Join the Launch
             </button>
+            </a>
           </div>
         </section>
         {/* FAQ Section */}
