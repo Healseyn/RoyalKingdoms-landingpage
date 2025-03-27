@@ -40,7 +40,7 @@ export default function Home() {
             <nav className="hidden md:flex space-x-4">
               <a href="#features" className="text-neutral hover:text-primary transition duration-300">Features</a>
               <a href="#roadmap" className="text-neutral hover:text-primary transition duration-300">Roadmap</a>
-              <a href="https://docs.royalkingdoms.xyz/" className="text-neutral hover:text-primary transition duration-300">Docs</a>
+              <a href="https://docs.solkingdoms.xyz/" className="text-neutral hover:text-primary transition duration-300">Docs</a>
             </nav>
 
             <div className="absolute left-1/2 transform -translate-x-1/2 -top-12 md:-top-5 z-50">
@@ -58,7 +58,7 @@ export default function Home() {
               <a href="#token-sale" className="text-neutral hover:text-primary transition duration-300">Token Sale</a>
               <a href="#community" className="text-neutral hover:text-primary transition duration-300">Community</a>
               <a
-                href="https://x.com/RkingdomsSol"
+                href="https://x.com/sol_kingdoms"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-neutral hover:text-primary transition duration-300"
@@ -120,10 +120,10 @@ export default function Home() {
               <nav className="flex flex-col space-y-4">
                 <a href="#features" className="text-neutral hover:text-primary transition duration-300">Features</a>
                 <a href="#roadmap" className="text-neutral hover:text-primary transition duration-300">Roadmap</a>
-                <a href="https://docs.royalkingdoms.xyz/" className="text-neutral hover:text-primary transition duration-300">Docs</a>
-                <a href="https://gofundmeme.io/campaigns/VpvVnHVCpT1uWsGCkJRdH2jVtfASjrwMpYns1eSGGFM" className="text-neutral hover:text-primary transition duration-300">Token Sale</a>
+                <a href="https://docs.solkingdoms.xyz/" className="text-neutral hover:text-primary transition duration-300">Docs</a>
+                <a href="https://gofundmeme.io" className="text-neutral hover:text-primary transition duration-300">Token Sale</a>
                 <a href="#community" className="text-neutral hover:text-primary transition duration-300">Community</a>
-                <a href="https://x.com/RkingdomsSol" target="_blank" rel="noopener noreferrer" className="text-neutral hover:text-primary transition duration-300">Twitter</a>
+                <a href="https://x.com/sol_kingdoms" target="_blank" rel="noopener noreferrer" className="text-neutral hover:text-primary transition duration-300">Twitter</a>
                 <a href="https://discord.gg/ScgrQRuub3" target="_blank" rel="noopener noreferrer" className="text-neutral hover:text-primary transition duration-300">Discord</a>
               </nav>
             </div>
@@ -145,12 +145,12 @@ export default function Home() {
             />
           </div>
           <div className="mt-6 flex justify-center gap-4">
-            <a href="https://beta-play.royalkingdoms.xyz/" target="_blank" rel="noopener noreferrer">
+            <a href="https://beta-play.solkingdoms.xyz/" target="_blank" rel="noopener noreferrer">
               <button className="px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-accent transition duration-300">
                 Play Now
               </button>
             </a>
-            <a href="https://gofundmeme.io/campaigns/VpvVnHVCpT1uWsGCkJRdH2jVtfASjrwMpYns1eSGGFM" target="_blank" rel="noopener noreferrer">
+            <a href="https://gofundmeme.io" target="_blank" rel="noopener noreferrer">
               <button className="px-8 py-3 bg-accent text-white font-semibold rounded-lg hover:bg-primary transition duration-300">
                 Buy Now
               </button>
@@ -186,29 +186,11 @@ export default function Home() {
         <section id="roadmap" className="bg-secondary py-16" data-aos="fade-up">
           <div className="container mx-auto px-6 text-center">
             <h2 className="text-3xl font-bold text-primary">Roadmap</h2>
-            <div className="mt-8 flex flex-col md:flex-row justify-center">
-              <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">March 23, 2025</h3>
-                <p className="text-neutral mt-2">Official Beta Launch</p>
-              </div>
-              <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">March 23, 2025</h3>
-                <p className="text-neutral mt-2">Token Launch on gofundmeme.io</p>
-              </div>
-              <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">April 2025</h3>
-                <p className="text-neutral mt-2">Gameplay Enhancements and Community Feedback Integration</p>
-              </div>
-              <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">April 2025</h3>
-                <p className="text-neutral mt-2">Token game integration</p>
-              </div>
-              <div className="md:w-1/4 p-4 transition duration-500 transform hover:-translate-y-2">
-                <h3 className="text-xl font-bold text-neutral">Q2 2025</h3>
-                <p className="text-neutral mt-2">Season 1 start</p>
-              </div>
+            <div className="mt-8 flex justify-center">
+              <img src="/images/Roadmap.png"></img>
             </div>
           </div>
+
         </section>
         {/* About the Game Section */}
         <section id="about" className="container mx-auto px-6 py-16" data-aos="fade-up">
@@ -277,10 +259,10 @@ export default function Home() {
             <div className="mt-8 flex justify-center">
               <Image src="/images/gofundmeme.png" alt="Token Sale" width={720} height={360} className="rounded-md border-2 border-secondary shadow-xl transition duration-500 hover:scale-105" />
             </div>
-            <a href="https://gofundmeme.io/campaigns/VpvVnHVCpT1uWsGCkJRdH2jVtfASjrwMpYns1eSGGFM" target="_blank" rel="noopener noreferrer">
-            <button className="mt-6 px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-accent transition duration-300 transform hover:-translate-y-1 hover:scale-110">
-              Join the Launch
-            </button>
+            <a href="https://gofundmeme.io" target="_blank" rel="noopener noreferrer">
+              <button className="mt-6 px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-accent transition duration-300 transform hover:-translate-y-1 hover:scale-110">
+                Join the Launch
+              </button>
             </a>
           </div>
         </section>
