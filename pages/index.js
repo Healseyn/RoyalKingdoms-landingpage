@@ -24,10 +24,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Royal Kingdoms - Real-Time Strategy Game</title>
+        <title>Sol Kingdoms - Real-Time Strategy Game</title>
         <meta
           name="description"
-          content="Royal Kingdoms is a real-time strategy game inspired by classics like Tribalwars and Ikariam, with blockchain integration."
+          content="Sol Kingdoms is a real-time strategy game inspired by classics like Tribalwars and Ikariam, with blockchain integration."
         />
         <link rel="icon" href="images/logo.png" type="image/x-icon" />
       </Head>
@@ -46,7 +46,7 @@ export default function Home() {
             <div className="absolute left-1/2 transform -translate-x-1/2 -top-12 md:-top-5 z-50">
               <Image
                 src="/images/logo.png"
-                alt="Royal Kingdoms Logo"
+                alt="Sol Kingdoms Logo"
                 width={160}
                 height={160}
                 className="z-50"
@@ -132,13 +132,13 @@ export default function Home() {
 
         {/* Hero Section */}
         <section className="container mx-auto px-6 py-16 text-center" data-aos="fade-up">
-          <h2 className="text-5xl font-bold text-primary">Welcome to Royal Kingdoms</h2>
+          <h2 className="text-5xl font-bold text-primary">Welcome to Sol Kingdoms</h2>
           <p className="text-secondary mt-4 text-lg">A real-time strategy game with blockchain integration, inspired by classics.</p>
           {/* Hero Image */}
           <div className="mt-8 flex justify-center" data-aos="zoom-in">
             <Image
               src="/images/hero-image.png"
-              alt="Royal Kingdoms Hero Image"
+              alt="Sol Kingdoms Hero Image"
               width={1000}
               height={400}
               className="rounded-md border-2 border-secondary shadow-xl"
@@ -212,9 +212,9 @@ export default function Home() {
         </section>
         {/* About the Game Section */}
         <section id="about" className="container mx-auto px-6 py-16" data-aos="fade-up">
-          <h2 className="text-3xl font-bold text-primary text-center">About Royal Kingdoms</h2>
+          <h2 className="text-3xl font-bold text-primary text-center">About Sol Kingdoms</h2>
           <p className="text-secondary mt-4 text-lg text-center">
-            Royal Kingdoms is a real-time strategy game that allows players to build and expand their empires,
+            Sol Kingdoms is a real-time strategy game that allows players to build and expand their empires,
             gather resources, and engage in strategic battles. Players start in the Royal City and colonize
             different areas on the map. Resources are essential for building and upgrading, and the game&apos;s
             economy is deeply integrated with blockchain technology.
@@ -262,8 +262,8 @@ export default function Home() {
               <p className="text-secondary">Used for trading and purchasing resources.</p>
             </div>
             <div className="w-1/2 md:w-1/4 p-4 text-center" data-aos="zoom-in">
-              <Image src="/images/resources/crystal.png" alt="Crystal" width={80} height={80} className="mx-auto" />
-              <h3 className="text-lg font-bold text-primary mt-2">Crystal</h3>
+              <Image src="/images/resources/essence.png" alt="Essence" width={80} height={80} className="mx-auto" />
+              <h3 className="text-lg font-bold text-primary mt-2">Essence</h3>
               <p className="text-secondary">The &apos; token, used for special transactions and blockchain integration.</p>
             </div>
           </div>
@@ -296,12 +296,12 @@ export default function Home() {
                 onClick={() => toggleQuestion(1)}
               >
                 <h3 className="text-xl font-bold text-neutral flex justify-between">
-                  1. What is Royal Kingdoms?
+                  1. What is Sol Kingdoms?
                   <span>{openQuestion === 1 ? '-' : '+'}</span>
                 </h3>
                 {openQuestion === 1 && (
                   <p className="text-neutral mt-2 transition-all duration-500 ease-in-out">
-                    Royal Kingdoms is a real-time strategy game where players can build and expand their empires, gather resources, and engage in strategic battles. The game integrates blockchain technology for token-based transactions and unique features.
+                    Sol Kingdoms is a real-time strategy game where players can build and expand their empires, gather resources, and engage in strategic battles. The game integrates blockchain technology for token-based transactions and unique features.
                   </p>
                 )}
               </div>
@@ -370,7 +370,7 @@ export default function Home() {
                 </h3>
                 {openQuestion === 5 && (
                   <p className="text-neutral mt-2 transition-all duration-500 ease-in-out">
-                    Royal Kingdoms features various resources such as Wood, Stone, Iron, Food, Tools, Luxury, Coins, and Crystal (the game&apos;s token). Managing these resources is crucial for building, upgrading, and strategic gameplay.
+                    Sol Kingdoms features various resources such as Wood, Stone, Iron, Food, Tools, Luxury, Coins, and Essence (the game&apos;s token). Managing these resources is crucial for building, upgrading, and strategic gameplay.
                   </p>
                 )}
               </div>
@@ -407,7 +407,7 @@ export default function Home() {
         {/* Footer */}
         <footer className="bg-secondary py-6">
           <div className="container mx-auto px-6 text-center text-neutral">
-            &copy; {new Date().getFullYear()} Royal Kingdoms. All rights reserved.
+            &copy; {new Date().getFullYear()} Sol Kingdoms. All rights reserved.
           </div>
         </footer>
       </main>
